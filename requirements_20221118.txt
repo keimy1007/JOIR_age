@@ -1,0 +1,23 @@
+# パターン１
+#torch==1.9.0+cu111 -f https://download.pytorch.org/whl/torch_stable.html
+#torchvision==0.10.0+cu111 -f https://download.pytorch.org/whl/torch_stable.html
+
+# パターン２
+# --find-links https://download.pytorch.org/whl/torch_stable.html
+# torch==1.9.0+cu111
+# torchvision==0.10.0+cu111
+
+# パターン３：以下はapple siliconの対応なし
+# torch==1.9.0
+# torchvision==0.10.0
+
+
+# そのほか
+timm==0.5.4
+numpy==1.22.1
+Pillow==9.0.0
+tqdm==4.62.3
+ipywidgets==8.0.2
+
+
+
